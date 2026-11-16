@@ -1,0 +1,7 @@
+dn: ou=groups, dc=Jokeapp, dc=localhost
+objectClass: organizationalUnit
+ou: groups
+
+dn: ou=people, dc=Jokeapp, dc=localhost
+objectClass: organizationalUnit
+ou: people

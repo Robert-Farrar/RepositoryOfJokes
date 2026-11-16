@@ -1,0 +1,25 @@
+dn: uid=SamJ93, ou=people, dc=Jokeapp, dc=localhost
+objectClass: inetOrgPerson
+uid: SamJ93
+surname: SamJ93
+cn: Samuel Jackson
+mail: Sam@gmail.com
+userPassword: {SSHA}eHX8ihqoJfLlnveJ65KeQ8Zd/yMmcoJB
+
+dn: cn=users, ou=groups, dc=Jokeapp, dc=localhost
+changeType: modify
+add: member
+member: uid=SamJ93, ou=people, dc=Jokeapp, dc=localhost
+
+dn: uid=Admin1, ou=people, dc=Jokeapp, dc=localhost
+objectClass: inetOrgPerson
+uid: Admin1
+surname: Admin1
+cn: Some Guy
+mail: Guy@gmail.com
+userPassword: {SSHA}eHX8ihqoJfLlnveJ65KeQ8Zd/yMmcoJB
+
+dn: cn=admins, ou=groups, dc=Jokeapp, dc=localhost
+changeType: modify
+add: member
+member: uid=Admin1, ou=people, dc=Jokeapp, dc=localhost

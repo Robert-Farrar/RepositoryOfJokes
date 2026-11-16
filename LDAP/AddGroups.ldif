@@ -1,0 +1,13 @@
+dn: cn=users, ou=groups, dc=Jokeapp, dc=localhost
+objectClass: top
+objectClass: groupOfNames
+cn: users
+description: standard website users
+member: 
+
+dn: cn=admins, ou=groups, dc=Jokeapp, dc=localhost
+objectClass: top
+objectClass: groupOfNames
+cn: admins
+description: Administrative users
+member: 
